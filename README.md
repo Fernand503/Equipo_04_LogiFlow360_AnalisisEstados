@@ -38,5 +38,3 @@ Participación total: **100 %**, según lo declarado por el equipo.
 - [Ejemplo Java del patrón State](java/src/logiflow/paquete/) y [persistencia PostgreSQL](sql/).
 - [Estado de la entrega y pasos para repetir las pruebas](docs/Estado_Entrega.md).
 - [Informe editable](Informe_Tecnico_LogiFlow360.docx).
-
-La portada contiene el docente, los cinco integrantes, sus roles y los porcentajes de participación. Antes de entregar, publicar la defensa y completar su enlace y tiempos reales en el punto 3. Las exportaciones conservan la marca «UNREGISTERED» de StarUML.
