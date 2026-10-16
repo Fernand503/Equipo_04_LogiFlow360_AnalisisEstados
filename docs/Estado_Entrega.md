@@ -11,13 +11,13 @@ El paquete integra diez máquinas, 219 transiciones documentadas y un diagrama d
 
 La verificación no certifica integraciones bancarias, sensores reales ni concurrencia distribuida. La alcanzabilidad es topológica. Las guardas representan condiciones que el backend debe evaluar con información confiable.
 
-## Datos que el equipo debe completar
+## Pendientes de entrega
 
-- En la portada: docente, nombres de los cinco integrantes, asignación real de roles y porcentajes que sumen 100 %. No se asignan porcentajes sin conocer la participación efectiva.
+- La portada está completa con el docente Juan José Santos Escobar y los cinco integrantes. La participación declarada es: Anderson 30 %, Carlos 0 %, José Fernando 40 %, Anthony 30 % y Diego 0 %, para un total de 100 %.
 - Grabar la defensa entre 12 y 15 minutos, con todos los integrantes, cámaras encendidas y StarUML visible.
 - Publicar el video con visualización pública habilitada. Colocar el enlace directo y el minutaje real en el punto 3 del README.
 
-La portada conserva espacios para esos datos. El README indica expresamente que el video está pendiente. El repositorio aún no debe presentarse como entrega terminada.
+El README indica expresamente que el video está pendiente. El repositorio aún no debe presentarse como entrega terminada hasta publicar la defensa y registrar su enlace y tiempos reales.
 
 ## Decisiones de la revisión
 

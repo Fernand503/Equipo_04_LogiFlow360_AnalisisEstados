@@ -1,6 +1,14 @@
 # Guion de defensa de LogiFlow 360
 
-Duración objetivo: **14 minutos y 40 segundos**. Es una agenda de ensayo; el video final debe durar entre 12 y 15 minutos. Completar los nombres según los roles realmente asignados. Mantener cámaras encendidas, audio claro y vestimenta profesional. Las indicaciones de pantalla no se leen.
+Duración objetivo: **14 minutos y 40 segundos**. Es una agenda de ensayo; el video final debe durar entre 12 y 15 minutos. Mantener cámaras encendidas, audio claro y vestimenta profesional. Las indicaciones de pantalla no se leen.
+
+| Rol | Expositor |
+|---|---|
+| 1 | ANDERSON ERNESTO CASTILLO NAVARRETE |
+| 2 | CARLOS DANIEL RIVAS GARCIA |
+| 3 | JOSÉ FERNANDO DÍAZ DEL CID |
+| 4 | ANTHONY ENRIQUE ALVARENGA RIVAS |
+| 5 | DIEGO ENRIQUE VÁSQUEZ SARACAY |
 
 Abrir `LogiFlow360_StateModels.mdj` en StarUML. En el explorador, cada entidad contiene su máquina `SM_` y su diagrama `SMD_`. El paquete 11 contiene el diagrama de clases. Preparar también las matrices, el informe y el código. Ajustar el zoom para leer el sector que se explica; usar la vista completa solo para situar al público.
 
@@ -8,7 +16,7 @@ Abrir `LogiFlow360_StateModels.mdj` en StarUML. En el explorador, cada entidad c
 
 Pantalla: explorador del modelo con los once paquetes.
 
-> Buenos días. Somos el equipo 04 y presentamos la arquitectura de estados de LogiFlow 360. Nuestro equipo está integrado por [nombre del rol 1], arquitectura y modelado; [nombre del rol 2], reglas de negocio; [nombre del rol 3], documentación y calidad; [nombre del rol 4], integración y persistencia; y yo, [nombre del rol 5], portavoz de negocio. Vamos a defender cómo el diseño protege las operaciones y el dinero de la plataforma.
+> Buenos días. Somos el equipo 04 y presentamos la arquitectura de estados de LogiFlow 360. Anderson lidera arquitectura; Carlos, reglas de negocio; José Fernando, documentación y calidad; Anthony, integración y persistencia; y yo, Diego, la defensa de negocio. Mostraremos cómo el diseño protege las operaciones y el dinero de la plataforma.
 
 ## 00:30 a 02:00 Rol 1 Problema y arquitectura
 
