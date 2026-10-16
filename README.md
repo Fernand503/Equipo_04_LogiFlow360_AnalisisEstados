@@ -36,5 +36,4 @@ Participación total: **100 %**, según lo declarado por el equipo.
 - [Diagramas exportados](diagramas/): diez máquinas de estados y el diagrama de clases del patrón State.
 - [Matrices de transiciones y QA](Matrices_QA_LogiFlow360.md), con 219 transiciones documentadas.
 - [Ejemplo Java del patrón State](java/src/logiflow/paquete/) y [persistencia PostgreSQL](sql/).
-- [Estado de la entrega y pasos para repetir las pruebas](docs/Estado_Entrega.md).
 - [Informe editable](Informe_Tecnico_LogiFlow360.docx).
