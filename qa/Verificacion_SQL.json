@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "checks": 16,
+  "passed": 16,
+  "postgres": "PostgreSQL 18.6 (PGlite 0.5.10) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.5 (1db513782be24469589d7cb8a1f1834e9a33f271), 32-bit",
+  "pglite": "0.5.10",
+  "scope": "Ejemplo local con dos eventos. Sin bancos, sensores ni prueba de concurrencia distribuida.",
+  "details": [
+    {
+      "name": "PostgreSQL ejecuta DDL y función",
+      "passed": true
+    },
+    {
+      "name": "Cambio aceptado actualiza estado y versión",
+      "passed": true
+    },
+    {
+      "name": "Un historial aceptado",
+      "passed": true
+    },
+    {
+      "name": "Entrega prematura rechazada",
+      "passed": true
+    },
+    {
+      "name": "Un efecto en outbox",
+      "passed": true
+    },
+    {
+      "name": "Repetición aceptada devuelve resultado previo",
+      "passed": true
+    },
+    {
+      "name": "Repetición rechazada no duplica intentos",
+      "passed": true
+    },
+    {
+      "name": "Mismo ID con otro contenido se rechaza",
+      "passed": true
+    },
+    {
+      "name": "Actor no autorizado no cambia estado",
+      "passed": true
+    },
+    {
+      "name": "Versión antigua se rechaza",
+      "passed": true
+    },
+    {
+      "name": "Entrega sin evidencia se rechaza",
+      "passed": true
+    },
+    {
+      "name": "Entrega válida desde ruta se acepta",
+      "passed": true
+    },
+    {
+      "name": "FK impide estado de otra entidad",
+      "passed": true
+    },
+    {
+      "name": "Historial no permite UPDATE",
+      "passed": true
+    },
+    {
+      "name": "Historial no permite DELETE",
+      "passed": true
+    },
+    {
+      "name": "Rollback revierte dominio, evento, historial y outbox",
+      "passed": true
+    }
+  ]
+}

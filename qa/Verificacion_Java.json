@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "checks": 28,
+  "passed": 28,
+  "runner": "logiflow.paquete.PruebasPatronState",
+  "jdk": "25.0.2",
+  "scope": "Patrón State local; sin servicios externos y con idempotencia en memoria"
+}

@@ -1,0 +1,1342 @@
+{
+  "status": "passed",
+  "checks": 248,
+  "passed": 248,
+  "scenario_count": 47,
+  "errors": [],
+  "entities": [
+    {
+      "entity": "OrdenDeCompra",
+      "vertices": 12,
+      "states": 10,
+      "transitions": 19,
+      "composites": 0,
+      "after": 1,
+      "choices": 0
+    },
+    {
+      "entity": "TransaccionDePago",
+      "vertices": 19,
+      "states": 15,
+      "transitions": 35,
+      "composites": 0,
+      "after": 6,
+      "choices": 2
+    },
+    {
+      "entity": "PaqueteFisico",
+      "vertices": 18,
+      "states": 15,
+      "transitions": 23,
+      "composites": 1,
+      "after": 0,
+      "choices": 1
+    },
+    {
+      "entity": "VehiculoDeReparto",
+      "vertices": 10,
+      "states": 8,
+      "transitions": 18,
+      "composites": 0,
+      "after": 0,
+      "choices": 1
+    },
+    {
+      "entity": "CasilleroInteligente",
+      "vertices": 16,
+      "states": 14,
+      "transitions": 39,
+      "composites": 1,
+      "after": 7,
+      "choices": 1
+    },
+    {
+      "entity": "TicketDeSoporte",
+      "vertices": 14,
+      "states": 9,
+      "transitions": 17,
+      "composites": 0,
+      "after": 1,
+      "choices": 1
+    },
+    {
+      "entity": "SolicitudDeDevolucion",
+      "vertices": 17,
+      "states": 10,
+      "transitions": 20,
+      "composites": 0,
+      "after": 2,
+      "choices": 2
+    },
+    {
+      "entity": "LoteDeInventario",
+      "vertices": 14,
+      "states": 8,
+      "transitions": 15,
+      "composites": 1,
+      "after": 0,
+      "choices": 2
+    },
+    {
+      "entity": "CuentaDeConductor",
+      "vertices": 10,
+      "states": 8,
+      "transitions": 14,
+      "composites": 1,
+      "after": 0,
+      "choices": 0
+    },
+    {
+      "entity": "DisputaBancaria",
+      "vertices": 13,
+      "states": 8,
+      "transitions": 19,
+      "composites": 0,
+      "after": 2,
+      "choices": 1
+    }
+  ],
+  "details": [
+    {
+      "check": "Identificadores únicos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Referencias resueltas",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Propiedad y contención consistentes",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Diez máquinas y diez diagramas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: un Initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: inicio sin trigger ni guarda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: salida de initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: Final sin salidas HNvtR9zfR76xdju1DZLZSA==",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: salida de Borrador_En_Carrito",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: salida de Esperando_Autorizacion_Pago",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: salida de En_Procesamiento_Almacen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: salida de Retenida_Por_Falta_Stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: salida de Empacada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: salida de Despachada_En_Ruta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: salida de Completada_Entregada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: salida de Cancelada_Por_Timeout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: salida de Cancelada_Por_Usuario",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: salida de Cancelada_Por_Falta_Stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: todos los vértices alcanzables",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "SM_OrdenDeCompra: un dibujo por vértice y transición",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_OrdenDeCompra: extremos gráficos correctos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: un Initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: inicio sin trigger ni guarda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: Final sin salidas RNPLWd5KR9i5V7wjMav0nw==",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: Choice bien formado mn6YVM+eRq2kMsC2pAM74A==",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: Choice bien formado Wxa5ZWjTRcu1wM6o3P/kGg==",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de Iniciada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de En_Analisis_Antifraude",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de Esperando_Respuesta_Pasarela",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de En_Desafio_3D_Secure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de Autorizada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de En_Liquidacion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de Liquidada_Depositada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de Rechazada_Por_Riesgo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de Rechazada_Por_Fondos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de Error_Emisor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de Fallida_Definitiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de En_Conciliacion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de En_Revision_Manual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de Anulada_Confirmada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: salida de En_Conciliacion_Liquidacion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: todos los vértices alcanzables",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "SM_TransaccionDePago: un dibujo por vértice y transición",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TransaccionDePago: extremos gráficos correctos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: un Initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: inicio sin trigger ni guarda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: Final sin salidas 5PqMq0+VTDm+xGKc0W2fxw==",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de Manifiesto_Creado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de Bajo_Custodia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de Recibido_En_Hub_Origen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de En_Clasificacion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de En_Transito_Inter_Hub",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de En_Hub_Destino",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de Asignado_A_Ruta_Ultima_Milla",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de En_Camino_A_Entrega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de Entrega_Fallida_Ausente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de Entregado_Exitosamente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de Retornado_A_Centro_Distribucion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de Siniestrado_En_Investigacion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de Extraviado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de Perdida_Confirmada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: salida de Recuperado_Pendiente_Recepcion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: Choice bien formado 031ff15f6ce842dc9cf3e3107545db73",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: todos los vértices alcanzables",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "SM_PaqueteFisico: un dibujo por vértice y transición",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_PaqueteFisico: extremos gráficos correctos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: un Initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: inicio sin trigger ni guarda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: salida de initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: Choice bien formado 1PRxaes2QSqT5Bk+ZFsbkg==",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: salida de Estacionado_Fuera_De_Servicio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: salida de Disponible_En_Base",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: salida de En_Carga_Mercancia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: salida de En_Ruta_Operativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: salida de Fin_De_Jornada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: salida de Varado_En_Averia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: salida de En_Taller_Mantenimiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: salida de Requiere_Service",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: todos los vértices alcanzables",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "SM_VehiculoDeReparto: un dibujo por vértice y transición",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_VehiculoDeReparto: extremos gráficos correctos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: un Initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: inicio sin trigger ni guarda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de En_Operacion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Vacio_Disponible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Reservado_Para_Entrega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Apertura_Pendiente_Carga",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Puerta_Abierta_Cargando",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Ocupado_Esperando_Retiro_Cliente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Apertura_Pendiente_Retiro",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Puerta_Abierta_Retirando",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Vencido_Pendiente_Recoleccion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Apertura_Pendiente_Recoleccion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Puerta_Abierta_Recolectando",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Alarma_Violacion_Seguridad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de Fuera_De_Servicio_Mantenimiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: salida de En_Recuperacion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: Choice bien formado nB/FF8ZzTy691B8MtuMm7A==",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: todos los vértices alcanzables",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "SM_CasilleroInteligente: un dibujo por vértice y transición",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CasilleroInteligente: extremos gráficos correctos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: un Initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: inicio sin trigger ni guarda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: salida de initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: salida de Registrado_En_Cola",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: salida de Asignado_Nivel_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: salida de En_Analisis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: salida de En_Espera_Respuesta_Usuario",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: salida de Cerrado_Sin_Solucion_Abandono",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: Final sin salidas AAAAAAGhQwaq07fa1yE=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: salida de Escalado_Nivel_2_Ingenieria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: salida de Resuelto_Esperando_Confirmacion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: Choice bien formado AAAAAAGh0lv2q7etXMs=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: Final sin salidas AAAAAAGhnj6y2h6aU6I=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: salida de Reabierto_En_Disputa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: salida de Cerrado_Por_Inactividad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: Final sin salidas AAAAAAGh7W+9Z52gW+w=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: todos los vértices alcanzables",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "SM_TicketDeSoporte: un dibujo por vértice y transición",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_TicketDeSoporte: extremos gráficos correctos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: un Initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: inicio sin trigger ni guarda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: salida de initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: salida de Solicitada_Por_Cliente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: salida de En_Revision_Elegibilidad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: Choice bien formado AAAAAAGhA4Ft7Z6xb2U=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: salida de Rechazada_Fuera_De_Politica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: Final sin salidas AAAAAAGhrOo9KZM2FnQ=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: salida de Aprobada_Generando_Guia_Retorno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: salida de Cancelada_Por_No_Envio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: Final sin salidas AAAAAAGhWiWaOFjsgyw=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: salida de Recibida_En_Inspeccion_Calidad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: Choice bien formado AAAAAAGhK1CHsCk27XQ=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: salida de Rechazada_Fraude_Garantia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: Final sin salidas AAAAAAGh3UpbfjeYH1Y=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: salida de Aprobada_Para_Reembolso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: salida de Liquidada_Cerrada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: Final sin salidas AAAAAAGhEsYhnumUM2o=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: salida de Reembolso_En_Conciliacion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: todos los vértices alcanzables",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: un dibujo por vértice y transición",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_SolicitudDeDevolucion: extremos gráficos correctos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: un Initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: inicio sin trigger ni guarda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: salida de initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: salida de Recibido_En_Cuarentena",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: Choice bien formado AAAAAAGh4zSNfJTbje4=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: salida de En_Almacen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: salida de Aprobado_En_Ubicacion_Almacen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: salida de Activo_En_Picking",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: Choice bien formado RUESZ18wRVqGIRn8Coanww==",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: salida de Agotado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: Final sin salidas AAAAAAGhI4ch6PonqXU=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: salida de Destruido_Decomisado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: Final sin salidas AAAAAAGhwnIWgC5V4K4=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: salida de Bloqueado_Por_Siniestro",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: salida de Inmovilizado_Por_Recall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: Final sin salidas AAAAAAGhWLApzveRM/o=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: todos los vértices alcanzables",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "SM_LoteDeInventario: un dibujo por vértice y transición",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_LoteDeInventario: extremos gráficos correctos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: un Initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: inicio sin trigger ni guarda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: salida de initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: salida de Registro_Incompleto",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: salida de Documentacion_En_Validacion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: salida de Activo_Habilitado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: salida de Desconectado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: salida de En_Linea_Disponible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: salida de Suspendido_Por_Bajo_Desempeno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: salida de Expulsado_Permanente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: Final sin salidas AAAAAAGh7JS338VrBHY=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: salida de Dado_De_Baja",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: todos los vértices alcanzables",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "SM_CuentaDeConductor: un dibujo por vértice y transición",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_CuentaDeConductor: extremos gráficos correctos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: un Initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: inicio sin trigger ni guarda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: salida de initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: salida de Notificada_Por_Red_Bancaria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: salida de Aceptada_Sin_Disputa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: Final sin salidas AAAAAAGhOfTbSvr9q+c=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: salida de En_Recoleccion_De_Evidencias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: salida de Evidencias_Presentadas_Al_Emisor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: salida de En_Arbitraje_Bancario",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: Choice bien formado AAAAAAGhqoKmKUIRelQ=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: salida de Ganada_Fondos_Liberados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: Final sin salidas AAAAAAGhGo9IeJpFh7s=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: salida de Perdida_Con_Penalizacion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: Final sin salidas AAAAAAGhX8Hu2dPQHrg=",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: salida de En_Seguimiento_Plazo_Excedido",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: todos los vértices alcanzables",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "SM_DisputaBancaria: un dibujo por vértice y transición",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SM_DisputaBancaria: extremos gráficos correctos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Compuestos en al menos dos diagramas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "after() en al menos cuatro diagramas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Choice en al menos tres diagramas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Acciones internas en al menos cinco entidades",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: pago: tres envíos y rechazo del cuarto",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: pago: timeout se concilia sin nuevo intento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: pago: umbral exacto rechaza por riesgo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: pago: 3DS no crea otro cargo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: orden: cancelar impide empaquetar después",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: orden: cancelar después de empaque se rechaza",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: orden: timeout no revive por pago tardío",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: orden: vencimiento de reposición cancela",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: paquete: entrega desde origen rechazada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: paquete: tercera ausencia ordena retorno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: paquete: siniestro heredado desde compuesto",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: vehículo: servicio vencido bloquea despacho",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: vehículo: avería crítica sale de ruta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: comando no equivale a apertura confirmada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: cierre sin peso no confirma depósito",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: cerradura no trabada bloquea servicio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: fallo de cerradura bloquea servicio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: 72 horas vence retiro",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: PIN vencido se rechaza",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: reinicio durante carga requiere conciliación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: ocupación vencida conserva vencimiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: sensores incoherentes bloquean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: devolución: conciliación antes de cerrar reembolso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: inventario: última unidad agota en el mismo evento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: inventario: saldo positivo conserva picking",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: inventario: cantidad excesiva se rechaza",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: conductor: curso sin Compliance no reactiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: conductor: fraude confirmado expulsa sin retorno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: disputa: 45 días escala sin inventar victoria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: disputa: siete días sin evidencia produce pérdida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: recuperación: siniestro recuperable espera recepción",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: recuperación: hallazgo no prueba recepción",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: recuperación: sin recepción física se rechaza",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: recuperación: sin identidad se rechaza",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: recuperación: hub desconocido se rechaza",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: recuperación: escaneo de origen no salta el interhub",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: recuperación: escaneo de destino reanuda allí",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: cierre sin traba en Puerta_Abierta_Cargando",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: timeout de cierre en Puerta_Abierta_Cargando",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: cierre sin traba en Puerta_Abierta_Retirando",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: timeout de cierre en Puerta_Abierta_Retirando",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: cierre sin traba en Puerta_Abierta_Recolectando",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: casillero: timeout de cierre en Puerta_Abierta_Recolectando",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: conductor: baja con custodia pendiente se rechaza",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: conductor: baja verificada cierra contrato",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: pago: seguimiento manual no cambia resultado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Escenario: devolución: seguimiento no repite reembolso",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "scope": "Análisis estructural, topología sin satisfacibilidad de guardas y simulaciones seleccionadas con efectos locales. No es una certificación de UML completa ni una prueba de apertura/renderizado en StarUML."
+}
