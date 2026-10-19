@@ -4,18 +4,6 @@
 2. **[Informe_Tecnico_LogiFlow360.pdf](Informe_Tecnico_LogiFlow360.pdf)** — Informe técnico de 25 páginas.
 3. **[Defensa_Product_Owner — Video en Vimeo](https://vimeo.com/1237402851)**.
 
-   | Tiempo previsto | Expositor por rol | Intervención |
-   |---|---|---|
-   | 00:00–00:30 | Rol 5 | Presentación del equipo |
-   | 00:30–04:00 | Rol 1 | Problema, arquitectura y OrdenDeCompra |
-   | 04:00–06:30 | Rol 2 | TransaccionDePago y reglas de excepción |
-   | 06:30–08:00 | Rol 3 | PaqueteFisico, matrices y QA |
-   | 08:00–10:00 | Rol 5 | CasilleroInteligente |
-   | 10:00–12:30 | Rol 4 | Patrón State y persistencia |
-   | 12:30–13:10 | Rol 1 | Pregunta 1 del Product Owner |
-   | 13:10–13:55 | Rol 2 | Pregunta 2 del Product Owner |
-   | 13:55–14:40 | Rol 5 | Pregunta 3 y cierre |
-
 ## Equipo y participación
 
 Docente: **Juan José Santos Escobar**.
