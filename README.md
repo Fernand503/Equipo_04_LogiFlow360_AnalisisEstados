@@ -2,7 +2,7 @@
 
 1. **[LogiFlow360_StateModels.mdj](LogiFlow360_StateModels.mdj)** — Proyecto nativo de StarUML con las diez máquinas de estados y el diagrama de clases del patrón State.
 2. **[Informe_Tecnico_LogiFlow360.pdf](Informe_Tecnico_LogiFlow360.pdf)** — Informe técnico de 25 páginas.
-3. **Defensa_Product_Owner** — **Pendiente de grabación y publicación.** Antes de entregar, sustituir este texto por el enlace directo a YouTube, Vimeo o Loom con visualización pública habilitada y comprobar el minutaje real de cada expositor.
+3. **[Defensa_Product_Owner — Video en Vimeo](https://vimeo.com/1237402851)**.
 
    | Tiempo previsto | Expositor por rol | Intervención |
    |---|---|---|
