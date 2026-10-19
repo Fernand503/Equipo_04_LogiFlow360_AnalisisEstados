@@ -32,7 +32,6 @@ Participación total: **100 %**, según lo declarado por el equipo.
 
 ## Material de apoyo
 
-- [Guion de defensa de 14:40](docs/Guion_Defensa_14m40s.md), con las intervenciones de los cinco roles.
 - [Diagramas exportados](diagramas/): diez máquinas de estados y el diagrama de clases del patrón State.
 - [Matrices de transiciones y QA](Matrices_QA_LogiFlow360.md), con 219 transiciones documentadas.
 - [Ejemplo Java del patrón State](java/src/logiflow/paquete/) y [persistencia PostgreSQL](sql/).
